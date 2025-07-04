@@ -12,8 +12,8 @@ By training a YOLOv8 object detection model on a custom fire dataset, we achieve
 
 ### Webcam Detection (Live)
 <p align="center">
-  <img src="images/webcam_fire_detected.png" width="400" alt="Webcam Fire Detected">
-  <img src="images/webcam_no_fire.png" width="400" alt="Webcam No Fire Detected">
+  <img src="images/webcam_detected.png" width="400" alt="Webcam Fire Detected">
+  <img src="images/webcam_not_detected.png" width="400" alt="Webcam No Fire Detected">
 </p>
 <p align="center">
   <b>Left:</b> Fire detected from webcam &nbsp;&nbsp;&nbsp;&nbsp; <b>Right:</b> No fire detected
@@ -21,8 +21,8 @@ By training a YOLOv8 object detection model on a custom fire dataset, we achieve
 
 ### Video Detection
 <p align="center">
-  <img src="images/video_fire_detected_1.png" width="400" alt="Video Fire Detected Frame 1">
-  <img src="images/video_fire_detected_2.png" width="400" alt="Video Fire Detected Frame 2">
+  <img src="images/video_detected.png" width="400" alt="Video Fire Detected Frame 1">
+  <img src="images/video_detected_1.png" width="400" alt="Video Fire Detected Frame 2">
 </p>
 <p align="center">
   <b>Detection results</b> from video-based input
