@@ -8,6 +8,26 @@ Fires can spread rapidly and cause catastrophic damage if not identified early. 
 
 By training a YOLOv8 object detection model on a custom fire dataset, we achieve a solution capable of detecting fire from webcam input or pre-recorded video files. This approach enables timely alerts and automation in fire response systems.
 
+## 🔍 Detection Demo
+
+### Webcam Detection (Live)
+<p align="center">
+  <img src="images/webcam_fire_detected.png" width="400" alt="Webcam Fire Detected">
+  <img src="images/webcam_no_fire.png" width="400" alt="Webcam No Fire Detected">
+</p>
+<p align="center">
+  <b>Left:</b> Fire detected from webcam &nbsp;&nbsp;&nbsp;&nbsp; <b>Right:</b> No fire detected
+</p>
+
+### Video Detection
+<p align="center">
+  <img src="images/video_fire_detected_1.png" width="400" alt="Video Fire Detected Frame 1">
+  <img src="images/video_fire_detected_2.png" width="400" alt="Video Fire Detected Frame 2">
+</p>
+<p align="center">
+  <b>Detection results</b> from video-based input
+</p>
+
 ## Project Features
 
 - Real-time fire detection using standard webcam or video input
@@ -87,6 +107,11 @@ model.train(data="fire.yaml", epochs=50)
 ```
 
 After training, the best-performing model weights will be saved as `best.pt`.
+
+## 🏆 Achievements
+
+- This system was successfully deployed on a drone platform during a national-level competition.
+- **Secured 3rd place** for best innovation and integration in real-world disaster response.
 
 ## Performance
 
